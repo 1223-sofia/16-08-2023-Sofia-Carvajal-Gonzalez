@@ -1,0 +1,24 @@
+git init
+git remote add origin
+git pull otigin main
+git branch feature
+mkdir Hardware Software Software SeguridadInformatica
+cd Hardware
+touch resumen.txt
+cd ..
+cd Software
+touch resumen.txt
+cd ..
+cd SeguridadInformatica
+touch resumen.txt
+git status
+cd ..
+git add .
+git commit -m "subiendo la rama feature sofia carvajal"
+git push origin feature
+git checkout main
+git branch
+git checkout feature
+git merge main
+git checkout main
+touch.txt
